@@ -1,0 +1,185 @@
+body {
+	background-color:#2f082f;
+	margin:0;
+	font-family:sans-serif;
+	font-size:1rem;
+	line-height:1;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	min-height:100vh;
+}
+.container {
+	padding: 30px 40px;
+	border-radius: 1rem;
+	border: 3px solid gray;
+	margin: 25px;
+	background-color: #832984;
+}
+.calc {
+	border:solid 2px #fff;
+	color:#000;
+	border-radius:1rem;
+	text-decoration:none;
+	background-color:#155c81;
+}
+input[type="type"],
+input[type="text"],
+input[type="number"] {
+	border:2px solid #fff;
+	border-radius:1rem;
+	padding:5px;
+	width: 100%;
+}
+#category, 
+#date {
+	border:2px solid #fff;
+	border-radius:1rem;
+	padding:5px;
+}
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+label {
+	display: inline-block;
+	margin: 10px 0;
+	font-weight: bolder;
+}
+.header {
+	background-color:silver;
+	text-align:center;
+	border-radius:1em;
+	text-transform:uppercase;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 90%;
+	margin-left:5%;
+	letter-spacing: 2px;
+}
+.header2 {
+	text-align:center;
+	border-bottom: 1px solid #fff;
+	color:#fff;
+	font-size:1em;
+	line-height:1;
+	margin-bottom: 20px;
+	padding-bottom:5px;
+}
+.btn {
+	background-color:#b20707;
+	color:#fff;
+	padding:18px 10px;
+	border-radius:1.5rem;
+	text-align:center;
+	margin:10px 0 20px 20%;
+	width:60%;
+	text-transform:uppercase;
+}
+.btn2 {
+	background-color:#faec75;
+	color:#000;
+	padding:8px 10px;
+	border-radius:1rem;
+	text-align:center;
+	margin:10px 0 20px 1%;
+	width:30%;
+	text-transform:uppercase;
+}
+.btn3 {
+	background-color:#04441a;
+	color:#fff;
+	padding:10px 10px;
+	border-radius:1em;
+	text-align:center;
+	margin:2em 30% 0.5em;
+	width:40%;
+	text-transform:uppercase;
+}
+.form-control {
+	-webkit-appearance:none;
+}
+.cal {
+	display:flex;
+}
+.flow {
+	width:50%;
+	float:left;
+	color:#fff;
+	border-radius:0.5rem;
+	background-color:#000;
+	line-height:0.1em;
+	margin:1px;
+}
+.flow2 {
+	width:50%;
+	color:#000;
+	border-radius:0.5rem;
+	background-color:#f7bc76;
+	line-height:0.5em;
+	margin:0 25% 0.5em;
+	padding:0.1em 0;
+	text-align: center;
+}
+.calText {
+	text-align:center;
+}
+.income {
+	text-align:center;
+	color:green;
+}
+.expense {
+	text-align:center;
+	color:#ff1818;
+}
+.balance {
+	font-size:1.5rem;
+	text-align:center;
+}
+.histText {
+	color:#fff;
+	margin-bottom:-0.5em;
+}
+.delete-btn {
+	margin-left:3em;
+}
+span {
+	color:#ffc808;
+}
+li {
+	list-style-type: none; 	
+	text-align: left;
+	width:100%;
+	padding:5px;
+}
+#message {
+	font-weight: bold;
+	font-style: italic;
+	color:#fff;
+}
+#windowTest {
+	float:right;
+}
+.windowStyles {
+	font-size:2em;
+	font-style: italic;
+	float:right;
+	width:45%;
+	margin-top:.2em;
+	padding:0 5% 0 0;
+	font-weight: bold;
+	text-align: center;
+	color:#fff;
+}
+.trendDiv {
+	width:40%;
+	padding:0 5%;
+	float:left;
+	background-color:#10aa04;
+} 
+.textWhite {
+	color:#fff;
+	text-align: right;
+}
+.centerDiv {
+	text-align: center;
+}

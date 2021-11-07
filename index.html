@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Expense Calculator</title>
+		<link href="styles.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="container">
+			<p id="error_msg"></p>
+
+			<h2 class="header">Expense Tracker</h2>
+
+			<h3 class="header2">New Entry</h3>
+			<form id="form">
+				<div class="form-control">
+					<label for="text">Description</label> <input type="text" id="text" onfocus="this.value=''" placeholder="What spend on..." /> <label>Amount(+/-)<br /></label> <input type="number" id="amount" onfocus="this.value=''" placeholder="How much..." /> <label>Category:</label>
+					<select name="category" id="category">
+						<option value="home">Home</option>
+						<option value="food">Food</option>
+						<option value="car">Car</option>
+					</select>
+					<br /><label>Date:</label> <input type="text" id="date" placeholder="2021-01-28" />
+				</div>
+				<button class="btn"> Add Transaction</button>
+			</form>
+			<div class="flow2">
+				<h4 class="calText">Balance</h4>
+				<p class="balance" id="balance">$0</p>
+			</div>
+			<div class="cal">
+				<div class="flow">
+					<h4 class="calText">Expense</h4>
+					<p class="expense" id="expense">$0</p>
+				</div>
+				<div class="flow">
+					<h4 class="calText">Income</h4>
+					<p class="income" id="income">$0</p>
+				</div>
+			</div>
+<!-- History -->
+
+			<h2 class="header2">History</h2>
+			<ul id="list" class="list">
+			</ul>
+			<div class="centerDiv">
+				<button id="carBtn" class="btn2">Car expense</button> <button id="homeBtn" class="btn2">Home expense</button> <button id="foodBtn" class="btn2">Grocery expense</button>
+				<div id="message"></div>
+				<button id="windowWeekBtn" class="btn3">Money spent last week</button>
+				<div class="trendDiv">
+					<p class="textWhite">Cash spent last week:</p>
+				</div>
+				<div class="windowStyles" id="windowTest"></div>
+				<button id="windowMonthBtn" class="btn3">Money spent last month</button>
+				<div class="trendDiv">
+					<p class="textWhite">Cash spent last month:</p>
+				</div>
+				<div class="windowStyles" id="windowTest2"></div>
+				<button id="windowYearBtn" class="btn3">Money spent last year</button>
+				<div class="trendDiv">
+					<p class="textWhite">Cash spent last year:</p>
+				</div>
+				<div class="windowStyles" id="windowTest3"></div>
+			</div>
+		</div>
+		<script src="actions.js"></script>
+	</body>
+</html>
